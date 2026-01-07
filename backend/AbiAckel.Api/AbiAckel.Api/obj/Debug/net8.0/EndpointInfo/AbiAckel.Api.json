@@ -1,0 +1,68 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "AbiAckel.Api",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Indicadores": {
+      "get": {
+        "tags": [
+          "Indicadores"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/IndicadoresDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IndicadoresDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IndicadoresDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "IndicadoresDto": {
+        "type": "object",
+        "properties": {
+          "processosAtivos": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "processosGanhos": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "processosPerdidos": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "prazoMedioDias": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "audienciasSemana": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

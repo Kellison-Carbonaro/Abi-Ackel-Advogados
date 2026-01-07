@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AbiAckel.Api.props" />
+</Project>

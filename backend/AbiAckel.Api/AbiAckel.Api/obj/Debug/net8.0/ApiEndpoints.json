@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "AbiAckel.Api.Controllers.IndicadoresController",
+    "Method": "Get",
+    "RelativePath": "api/Indicadores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "AbiAckel.Api.DTOs.IndicadoresDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

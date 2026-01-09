@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AbiAckel.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b5eacdcba64488228af3bf9c3397998418da3bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b084515d743afe0038965c711b51ece805190724")]
 [assembly: System.Reflection.AssemblyProductAttribute("AbiAckel.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AbiAckel.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

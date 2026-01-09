@@ -26,7 +26,21 @@ export default function Dashboard() {
   }, []);
 
   if (!indicadores) {
-    return <p>Carregando indicadores...</p>;
+    return (
+    <div
+      style={{
+        width: "100vw",
+        height: "100vh",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center"
+      }}
+    >
+      <p style={{ fontSize: 18, color: "#666" }}>
+        Carregando indicadores...
+      </p>
+    </div>
+    )
   }
 
   const graficoData: GraficoItem[] = [
@@ -35,7 +49,16 @@ export default function Dashboard() {
   ];
 
   return (
-    <div style={{ padding: 24 }}>
+    <div 
+      style={{ 
+        padding: 24,
+        width: "100vw",
+        height: "100vh",
+        alignItems: "center",
+        justifyContent: "center",
+        color: "#666"
+      }}
+    >
       <h1>Portal de Indicadores Jurídicos</h1>
 
       <div style={{ display: "flex", gap: 16, marginBottom: 24 }}>
